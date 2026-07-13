@@ -1,20 +1,9 @@
-```markdown
-## Features
-- Sub-1ms execution
-- MEV protection
-# Real-Time DeFi Bot for MegaETH
+# Real-Time DeFi Bot — Concept Prototype
 
-## Description
-A bot for real-time DeFi operations (swaps, arbitrage) on MegaETH Testnet with a submillisecond delay. Uses the Realtime API for mini-blocks.
+An early concept explored while learning about real-time DeFi and the MegaETH testnet.
 
-## Installation
-1. Clone: git clone https://github.com/OlegonZo/real-time-defi-bot.git
-2. Install dependencies: pip install -r requirements.txt
+## Status
 
-## Usage examples
-### DeFi swap
-`python
-from web3 import Web3
+This repository does **not** currently execute swaps or arbitrage, and it does not implement measurable sub-millisecond execution or MEV protection. The existing material is a minimal connectivity sketch, not a trading system.
 
-w3 = Web3(Web3.httpProvider('https://testnet.megaeth.com/rpc '))
-print("Connected to MegaETH!") # Simple example, replace with a real swap
+The repository remains public to show the learning path. For a complete research project with transparent methodology and measured results, see [Polymarket BTC 15M Momentum Research](https://github.com/OlegonZo/polymarket-btc-bot).
