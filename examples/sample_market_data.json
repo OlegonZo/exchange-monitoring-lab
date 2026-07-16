@@ -1,0 +1,69 @@
+{
+  "anchor_symbol": "BTC/USD",
+  "mexc": [
+    {
+      "symbol": "BTC_USDT",
+      "lastPrice": "68120.00",
+      "openPrice24h": "65000.00",
+      "quoteVolume": "940000000.00",
+      "bidPrice": "68110.00",
+      "askPrice": "68130.00"
+    },
+    {
+      "symbol": "ETH_USDT",
+      "lastPrice": "3660.00",
+      "openPrice24h": "3500.00",
+      "quoteVolume": "410000000.00",
+      "bidPrice": "3659.50",
+      "askPrice": "3660.50"
+    },
+    {
+      "symbol": "SOL_USDT",
+      "lastPrice": "151.00",
+      "openPrice24h": "148.00",
+      "quoteVolume": "175000000.00",
+      "bidPrice": "150.95",
+      "askPrice": "151.05"
+    }
+  ],
+  "hyperliquid": [
+    {
+      "coin": "BTC",
+      "context": {
+        "markPx": "68100.00",
+        "prevDayPx": "65050.00",
+        "dayNtlVlm": "870000000.00",
+        "impactPxs": ["68090.00", "68110.00"]
+      }
+    },
+    {
+      "coin": "ETH",
+      "context": {
+        "markPx": "3658.00",
+        "prevDayPx": "3505.00",
+        "dayNtlVlm": "360000000.00",
+        "impactPxs": ["3657.50", "3658.50"]
+      }
+    },
+    {
+      "coin": "SOL",
+      "context": {
+        "markPx": "150.80",
+        "prevDayPx": "148.20",
+        "dayNtlVlm": "160000000.00",
+        "impactPxs": ["150.75", "150.85"]
+      }
+    }
+  ],
+  "paper_short": {
+    "symbol": "SYNTH/USD",
+    "entry_price": "100.00",
+    "opened_at": "2026-01-01T12:00:00Z",
+    "price_path": [
+      {"at": "2026-01-01T12:30:00Z", "price": "97.00"},
+      {"at": "2026-01-01T13:00:00Z", "price": "95.50"},
+      {"at": "2026-01-01T13:30:00Z", "price": "97.00"}
+    ]
+  }
+}
+
