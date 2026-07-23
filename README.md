@@ -8,7 +8,7 @@
 Hyperliquid market data, assessing market regime, and explaining deterministic
 short-position exit decisions.**
 
-[Русская версия](README_RU.md) · [Paper research case study](docs/CASE_STUDY.md)
+[Русская версия](README_RU.md) · [Paper research case study](docs/CASE_STUDY.md) · [July 2026 operational snapshot](docs/OPERATIONS_UPDATE_2026-07.md)
 
 > This repository does not place orders, connect to private APIs, or contain a
 > trading strategy. It demonstrates engineering patterns with synthetic data.
@@ -103,7 +103,11 @@ The accompanying [case study](docs/CASE_STUDY.md) includes unsuccessful and
 inconclusive experiments. Two N=30 paper studies recorded positive headline
 results, but their uncertainty intervals crossed zero, so they do **not** prove
 an edge. Another exit study remained negative. The Hyperliquid v2 study is
-pre-registered and ongoing; it has no result yet.
+paused and incomplete at 10/30 observations; its interim paper result is
+negative and no final conclusion is claimed. A dated
+[operational snapshot](docs/OPERATIONS_UPDATE_2026-07.md) documents the active
+MEXC forward cohort and the controls used to keep research read-only and
+paper-only.
 
 That distinction matters: monitoring software can be sound even when a market
 hypothesis fails. I prefer reproducible evidence over a polished profit claim.
