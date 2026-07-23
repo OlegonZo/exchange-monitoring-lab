@@ -23,7 +23,7 @@ execution code are intentionally excluded.
 | Overheated-short guard | N=30 | +183.26 USDT; 66.67% wins | Confidence interval crossed zero; edge not proven |
 | Market-regime guard | N=30 | +196.26 USDT; 70.00% wins | Confidence interval crossed zero; clean replication required |
 | Hyperliquid guarded-short v1 | N=0 | No qualifying entries | Strict filters and data/rate constraints prevented evaluation |
-| Hyperliquid guarded-short v2 | Ongoing | Pre-registered before observation | No conclusion until its stopping rule is met |
+| Hyperliquid guarded-short v2 | N=10 of 30 planned | -49.66 USDT; -8.13% margin expectancy | Paused and incomplete; interim result negative, stopping rule not met |
 
 For the two positive 30-observation studies, the uncertainty interval included
 zero. Their headline paper PnL and win rate therefore cannot support a claim of
@@ -58,8 +58,9 @@ and selection effects remain material limitations.
 
 ## Next valid research step
 
-Complete the frozen Hyperliquid v2 observation window without intermediate
-parameter tuning, preserve rejected observations, calculate uncertainty after
-the stopping rule, and attempt an out-of-sample replication before considering
-any live-capital discussion.
+Either resume the frozen Hyperliquid v2 observation window without
+intermediate parameter tuning or close it explicitly as incomplete. Preserve
+rejected observations, calculate uncertainty only after the stopping rule, and
+attempt an out-of-sample replication before considering any live-capital
+discussion.
 
